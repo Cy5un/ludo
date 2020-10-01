@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<stdlib.h>
 #include<time.h>
-vid main()
+void main()
 {
 clrscr();
 int worksum=0,worksum2=0,a,c=0,b,d=0;
@@ -209,11 +209,11 @@ if(worksum2>56)
 worksum2=worksum2-b;
 cout<<"\n\nYour num is greater so you cant enter in your home";
 }
-conut<<"\n\nThe worksum= "<<worksum2;
+cout<<"\n\nThe worksum= "<<worksum2;
 if(worksum2==56)
 {
-cout<<"\n\nPlaer 2 wins";
-brak;
+cout<<"\n\nPlayer 2 wins";
+break;
 
 }
 }
